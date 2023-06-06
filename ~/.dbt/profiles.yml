@@ -1,0 +1,19 @@
+proccessed_employee: 
+
+  target: dev 
+
+  outputs: 
+
+    dev: 
+
+       type: snowflake 
+
+       user: FIVETRAN_USER1
+
+       password: <password>
+
+      dbname: databasename 
+
+      schema: schemaname 
+
+       threads: 4
